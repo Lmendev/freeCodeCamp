@@ -2,6 +2,19 @@
 <html>
 <head>
 	<title></title>
+	<style>
+		@media (max-width: 600px) {
+			nav ul li {
+				display: none;
+			}
+		}
+
+		header {
+			display: flex;
+			
+			flex-direction: row;
+		}
+	</style>
 </head>
 <body>
 	<header id="header" class="">
@@ -15,7 +28,6 @@
 			</ul>
 		</nav>
 
-		<iframe id="video" src="https://www.youtube.com/embed/8NzsQw46kDI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 		<section id="about"></section>
 		<section id="services"></section>
@@ -23,6 +35,12 @@
 
 	</header><!-- /header -->
 
+	<iframe id="video" src="https://www.youtube.com/embed/8NzsQw46kDI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	<form id="form" action="https://www.freecodecamp.com/email-submit" method="get" accept-charset="utf-8">
+		<input id="email" type="email" name="email" placeholder="email">
+		<input id="submit" type="submit" name="">
+	</form>
 
 	<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
