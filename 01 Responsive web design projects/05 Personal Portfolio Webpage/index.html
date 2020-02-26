@@ -2,8 +2,44 @@
 <html>
 <head>
 	<title></title>
+	<style>
+		@media (max-width: 600px) {
+			nav ul li {
+				display: none;
+			}
+		}
+
+		#welcome-section{
+			height: 100vh;
+		}
+
+		nav{
+			position: fixed;
+			top: 0;
+		}
+	</style>
 </head>
 <body>
+	
+	<nav id="navbar">
+		<ul>
+			<li><a href="#welcome-section">Home</a></li>
+			<li><a href="#projects">Projects</a></li>
+		</ul>
+	</nav>
+
+	<section id="welcome-section">
+		<h1>Personal Portfolio</h1>
+	</section>
+
+	<section id="projects" style="margin-top: 50%;">
+		<p class="project-tile">Project 1</p>
+		<a href="" title=""></a>
+	</section>
+
+	<a id="profile-link" href="https://github.com/lmendoza92" target="_blank" title="">@Lmendoza92</a>
+
+	<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
 </body>
 </html>
